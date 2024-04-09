@@ -143,6 +143,5 @@ class Logger {
 // 工厂构造函数无权访问this
 var logger = Logger('UI');
 logger.log('Button clicked');
-
 var logMap = {'name': 'UI'};
 var loggerJson = Logger.fromJson(logMap);
